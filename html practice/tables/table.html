@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Tables</title>
+    <style>
+        table,th,td,tr{
+            border:2px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Creating Tables</h1>
+    <table>
+        <thead>
+            <th colspan="2">Month</th>
+            <!-- <th>Amount</th> -->
+        </thead>
+        <tbody>
+            <tr>
+                <td>January</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td rowspan="2">February</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <!-- <td>March</td> -->
+                <td>300</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>600</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- Rowspan and Colspan -->
+    <br/>
+    <table>
+        <tr>
+            <td colspan="2">abcd</td>   <!--Agr issme colspan=2 karna hai toh jo 2nd column h usse htana pdega -->
+            <!-- <td>abcd</td> -->
+            <td>abcd</td>
+        </tr>
+        <tr>
+            <td>abcd</td>
+            <td>abcd</td>
+            <td>abcd</td>
+        </tr>
+        <tr>
+            <td>abcd</td>
+            <td>abcd</td>
+            <td rowspan="2">abcd</td>
+        </tr>
+        <tr>
+            <td>abcd</td>
+            <td>abcd</td>
+            <!-- <td>abcd</td> -->
+        </tr>
+        <tr>
+            <td colspan="2">abcd</td>
+            <!-- <td>abcd</td> -->
+            <td>abcd</td>
+        </tr>
+    </table>
+
+    <!-- Both colspan and rowspan change -->
+    <br/>
+    <table style="text-align: center; caption-side: bottom;">
+        <caption>My abcd table</caption>
+        <tr>
+            <td>abcd</td>   
+            <td>abcd</td>
+            <td>abcd</td>
+        </tr>
+        <tr>
+            <td>abcd</td>
+            <td>abcd</td>
+            <td>abcd</td>
+        </tr>
+        <tr>
+            <td>abcd</td>
+            <td rowspan="3" colspan="2">abcd</td>
+            <!-- <td>abcd</td> -->
+        </tr>
+        <tr>
+            <td>abcd</td>
+            <!-- <td>abcd</td> -->
+            <!-- <td>abcd</td> -->
+        </tr>
+        <tr>
+            <td>abcd</td>
+            <!-- <td>abcd</td> -->
+            <!-- <td>abcd</td> -->
+        </tr>
+    </table>
+    
+</body>
+</html>

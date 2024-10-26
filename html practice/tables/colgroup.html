@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colgroup</title>
+    <style>
+        table,td,tr{
+            border: 1.5px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Colgroup practice</h1>
+    <table>
+        <colgroup>
+            <!-- starting ke 2 column red krdo -->
+             <!-- <col span="2" style="background-color: red;"> -->
+
+            <!-- Every even column yellow krdo -->
+            <col span="1">
+            <col span="1" style="background-color: yellow;">
+            <col span="1">
+            <col span="1" style="background-color: yellow;">
+            <!-- Abhi tk 4 column ho gye h -->
+            <!-- 5th column ko hide krdo -->
+            <col span="1" style="visibility: collapse;">
+        </colgroup>
+        <tr>
+            <td>Col1</td>
+            <td>Col2</td>
+            <td>Col3</td>
+            <td>Col4</td>
+            <td>Col5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

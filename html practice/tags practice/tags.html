@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags Practice</title>
+    <link rel="icon" href="leetcode.png">
+</head>
+
+<body>
+    <p>This is a paragraph</p>
+
+    <!-- Headings -->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <p>Amit is a good guy</p>
+    <br /> <!--Used to give a empty line OR space-->
+
+    <!-- Nested Break line -->
+    <p>This is an example <br /> of Nested break line</p>
+
+    <hr/> <!--This is used for horizontal line-->
+
+    <!-- link -> terget="_blank" is used to go to new tab -->
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl" target="_blank">MDN DOCS(Desrcriptive List)</a>
+    <!-- As anchor tag 'a' is an inline element so when i am trying to display image the image is shown with MDN link because it takes only space link requires, doesn't want a block-->
+
+    <!-- Image in HTML -->
+     <img src="leetcode.png" alt="Leetcode icon" />
+
+    <!-- Poet Problem - pre tag ->When we want to write poem or anything in different lines then we use pre tag, p tag is not used because it is used to write in continuation, we can go to another line w/o using br tag-->
+    <pre>
+    Yaar tera
+    superstar
+    desi kalakaar
+    </pre>
+
+    <!-- inline CSS -> change color or bg color, font size of an element -->
+    <p style="color: brown;">Para1</p>     <!--Para1 is written in brown color-->
+    <p style="background-color: yellow;">Para2 - With Yellow Background</p>
+    <p style="font-size: 50px;">This is para3 with font-size=50px</p>
+    <p style="font-family: fantasy;">Babyyy Babyyy Oooooooooooo</p>
+    <p style="text-align: center;">Para in center</p>
+
+<!-- FORMATTING -->
+    <!--Bold tags -> b,strong ->inline element so we are using break line br tag-->
+    <b>This is bold text using b tag.</b>  <br/>
+    <strong>This is <del>blod</del> bold text using strong tag</strong> <br/>
+
+    <!-- Italics tags-> i,em -> inline element so we are using break line br tag-->
+    <i>Italics using i tag</i>    <br/>
+    <em>Italics using em tag</em> <br/>
+
+    <!-- small tag -->
+    <small>Small text using small tag</small> <br/>
+
+    <!-- Strikethrough text -> del,strike but strike is deprecated tag-->
+    <del>This a del tag</del>   <br/>
+    <strike>Strike tag is a deprecated tag.</strike>  <!--Red in color because we no longer use strike tag-->
+    <br/>
+
+    <!-- Mark text -->
+    <p>This is <mark>mark tag</mark> example</p>
+
+    <!-- superscript and subscript -->
+    <p>Example of superscript =  x<sup>2</sup>+y<sup>2</sup>=z<sup>2</sup></p>    <!--This is example of superscript -->
+    <u><p>Example of subscript = a<sub>1</sub>+a<sub>2</sub>=b<sub>3</sub></p></u>         <!--This is example of subscript -->
+
+    <hr/>
+
+    <h3>LIST IN HTML</h3>
+    <p>There are three types of list </p>
+    <ol>
+        <li>Ordered list</li>
+        <li>Unordered list</li>
+        <li>Desrcriptive list</li>
+    </ol>
+
+    <p>This is an Ordered List</p>
+    <ol>
+        <li>Shahi Paneer</li>
+        <li>Kadhai Paneer</li>
+        <li>Paneer Do pyaaja
+            <ul>
+                <li>Dry Paneer</li>
+                <li>Gravy Paneer</li>
+            </ul>
+        </li>
+    </ol>
+
+    <p>This is a Desrcriptive List</p>
+    <dl>
+        <ol>
+            <li>
+                <dt>HTML</dt>
+                <ul>
+                    <li>
+                        <dd>Stands for HyperText Markup Language</dd>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+    </dl>
+</body>
+
+</html>
