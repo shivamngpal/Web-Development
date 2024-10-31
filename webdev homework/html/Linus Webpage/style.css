@@ -1,0 +1,13 @@
+h1{
+    background-color: violet;
+}
+#heading-desc{
+    font-weight: 700;
+}
+.bookmark:hover{
+    color: red;
+}
+#Linus-pic:hover{
+    height: 500px;
+    width: 500px;
+}
