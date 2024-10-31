@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codehelp Card</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        #outer{
+            height: 280px;
+            width: 280px;
+            /* text-align: center; */
+            background-color: white;
+            padding: 15px;
+        }
+        #inner{
+            height: 55%;
+            width: 100%;
+            /* background-color: blue; */
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+        #inner img{
+            border-radius:10px;
+        }
+        #title-content{
+            font-size: larger;
+            font-weight: bold;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        #pricing{
+            margin-top: 40px;
+        }
+        #pricing #total{
+            margin-right: 10px;
+            color: blueviolet;
+            font-weight: 600;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        #pricing #discount{
+            display: inline-block;
+            margin-left: 15px;
+            background-color: rgb(14, 198, 155);
+            height: 22px;
+            width: 65px;
+            text-align: center;
+            color: white;
+            font-weight: 600;
+            border-radius: 5px;
+            padding-top: 4px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div id="outer">
+        <div id="inner">
+            <img src="https://d502jbuhuh9wk.cloudfront.net/courses/6375d571e4b01075b1507cbf/6375d571e4b01075b1507cbf_scaled_cover.jpg?v=1" height="100%" width="100%"/>
+        </div>
+        <div id="title-content">
+            <span>Web Development Master Course @dot Batch</span>
+        </div>
+        <div id="pricing">
+            <span id="total">&#8377;4500</span>
+            <span style="font-weight: 600; color: grey;"><del>&#8377;6999</del></span>
+            <div id="discount">42% off</div>
+        </div>
+    </div>
+</body>
+</html>

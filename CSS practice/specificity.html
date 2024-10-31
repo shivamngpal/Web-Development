@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity</title>
+    <style>
+        #divi{
+            background-color: yellow;
+        }
+        div{
+            background-color: red !important;  
+            color: blue;
+        }
+        .divc{
+            background-color: orange;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <!-- Heiarchy of Specificity -->
+    <!-- Element/tag -> class -> id -> inline -> !important -->
+    <div class="divc" id="divi">Hi Everyone!!</div>
+</body>
+</html>
